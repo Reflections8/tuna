@@ -1,0 +1,43 @@
+.modalWrapper__toast {
+  position: absolute;
+  border-radius: 40px;
+  background: #D9EFFC;
+  padding: 30px;
+  right: 20px;
+  top: 20px;
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.modalWrapper__toast-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: black;
+}
+
+.modalWrapper__toast-content-title {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.modalWrapper__toast-content-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+[data-toast-type="error"] > * {
+  color: #D8322A;
+}
+
+[data-toast-type="success"] > * {
+  color: #19A047;
+}
+
+[data-toast-type="warning"] > * {
+  color: #F97F29;
+}

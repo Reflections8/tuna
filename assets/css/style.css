@@ -1,16 +1,61 @@
+/* Components */
 @import "../../components/header/header.css";
 @import "../../components/footer/footer.css";
+@import "../../components/intro/intro.css";
+@import "../../components/steps/steps.css";
+@import "../../components/stamp/stamp.css";
+@import "../../components/woodPins/woodPins.css";
+@import "../../components/partners/partners.css";
+@import "../../components/progress/progress.css";
+@import "../../components/tabCards/tabCards.css";
+@import "../../components/charges/charges.css";
+@import "../../components/hold/hold.css";
+@import "../../components/top/top.css";
+@import "../../components/pie/pie.css";
+@import "../../components/pool/pool.css";
+@import "../../components/how/how.css";
+@import "../../components/roadmap/roadmap.css";
+
+/* Components modals */
+@import "../../components/modalWrapper/modalWrapper.css";
+@import "../../components/modalWrapper/connectWallet/connectWallet.css";
+@import "../../components/modalWrapper/makeDeposit/makeDeposit.css";
+@import "../../components/modalWrapper/affiliateLink/affiliateLink.css";
+@import "../../components/modalWrapper/toasts/toasts.css";
+
+/* UI */
+@import "../../ui/sectionHeader/sectionHeader.css";
+@import "../../ui/volumeBtn/volumeBtn.css";
+@import "../../ui/transparentBtn/transparentBtn.css";
+@import "../../ui/coloredBtn/coloredBtn.css";
+@import "../../ui/card/card.css";
+@import "../../ui/ovalPin/ovalPin.css";
 
 *, *:after, *:before {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D9EFFC;
+  border-radius: 10px;
+}
+
 body {
-  margin: 0;
   background-color: #224D75;
   color: #D9EFFC;
   position: relative;
   font-family: 'Nunito', sans-serif;
+  overflow-x: hidden;
+  max-width: 2120px;
+  margin: 0 auto;
 }
 
 .body__gradient {
@@ -18,7 +63,7 @@ body {
   width: 120px;
   height: 100%;
   min-height: 100vh;
-  z-index: 1;
+  z-index: 10;
   top: 0;
 }
 
@@ -32,17 +77,92 @@ body {
   background: linear-gradient(270deg, #224D75 0%, rgba(34, 77, 117, 0.00) 100%);
 }
 
+.bgFish {
+  position: absolute;
+  z-index: 2;
+}
+
+.bgFish--left {
+  left: -220px;
+  top: 50px;
+}
+
+.bgFish--right {
+  right: -260px;
+  top: 440px;
+}
+
+.commonPage__bg {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.tokenPage__bg {
+  position: absolute;
+  bottom: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 button {
   cursor: pointer;
   transition: all .2s ease-in-out;
 }
 
-.container {
-  max-width: 1560px;
+.container--big {
+  max-width: 1600px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
+.container {
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Mochiy Pop One', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Scale buttons on hover */
+[data-hover-scale] {
+  transition: transform .2s ease-in-out;
+}
+
+[data-hover-scale]:hover {
+  transform: scale(1.02);
+}
+
+/* Modal buttons */
+[data-modal-button] {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 2120px) {
+  .body__gradient {
+    display: none;
+  }
 }

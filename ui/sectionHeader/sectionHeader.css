@@ -1,0 +1,19 @@
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.sectionHeader__title {
+  width: 100%;
+}
+
+.sectionHeader__subtitle {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(141, 214, 202, 0.80);
+}

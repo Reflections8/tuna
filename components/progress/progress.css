@@ -1,0 +1,81 @@
+.progress {
+  position: relative;
+  z-index: 2;
+  margin-top: -365px;
+  margin-bottom: 100px;
+}
+
+.progress__box {
+  max-width: 670px;
+  width: 100%;
+  border-radius: 40px;
+  background: rgba(217, 239, 252, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 32px;
+  margin: 50px auto 0 auto;
+}
+
+.progress__box-fishCardWrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 45px;
+}
+
+.progress__box-fishCard {
+  border-radius: 30px;
+  border: 2px solid rgba(217, 239, 252, 0.30);
+  background: transparent;
+  padding: 28px 8px;
+  position: relative;
+  width: fit-content;
+}
+
+.progress__box-fishCard--Active {
+  background: rgba(217, 239, 252, 0.10);
+}
+
+.progress__box-fishCard--Active .progress__box-fishCard-img {
+  opacity: 100%;
+}
+
+.progress__box-fishCard-img {
+  max-height: 78px;
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+}
+
+.progress__box-fishCard:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -45px;
+  background-image: url("img/arrow-up.svg");
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 17px;
+}
+
+.progress__box-fishCard-woodPin {
+  font-size: 15px;
+  color: #FFD8BC;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.progress__box-progressBarWrapper {
+  border-radius: 30px;
+  border: 1px solid rgba(217, 239, 252, 0.30);
+  background: rgba(217, 239, 252, 0.10);
+  height: 20px;
+  padding: 2px;
+}
+
+.progress__box-progressBarWrapper-progress {
+  border-radius: 20px;
+  background: linear-gradient(90deg, #F97F29 0%, #25B845 100%);
+  width: 35%;
+  height: 100%;
+}

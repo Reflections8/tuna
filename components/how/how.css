@@ -1,0 +1,169 @@
+.how {
+  margin-bottom: 100px;
+}
+
+.how__header.sectionHeader {
+  margin-bottom: 50px;
+}
+
+.how__main {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content: center;
+}
+
+.how__main-accordion {
+  width: 100%;
+  max-width: 550px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.accordion-item {
+  border-radius: 40px !important;
+  position: relative;
+}
+
+.accordion-button {
+  border-radius: 40px !important;
+  padding: 30px;
+  padding-left: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-item .accordion-button.collapsed {
+  background: #D9EFFC;
+}
+
+.accordion-item .accordion-button.collapsed {
+  background: #F1FAFF;
+}
+
+.accordion-item-woodPinWrapper {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.accordion-item-woodPinWrapper-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none;
+  background-color: unset;
+}
+
+.accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.accordion-button-text {
+  background: linear-gradient(180deg, #224D75 41.67%, #4490B4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.accordion-button-innerButton.transparentBtn {
+  border-radius: 32px;
+  border: 2px solid rgba(68, 144, 180, 0.50);
+  color: #06907B;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.accordion-button-innerButton-icon {
+  transition: all .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed) .accordion-button-innerButton-icon {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  padding: 0 30px 45px 75px;
+  color: #06907B;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/*.accordion-button {*/
+/*  pointer-events: none;*/
+/*}*/
+
+/*.accordion-button::after {*/
+/*  pointer-events: all;*/
+/*}*/
+
+
+.how__main-widgetWrapper {
+  margin-left: auto;
+  max-width: 474px;
+  min-height: 400px;
+  width: 100%;
+  border-radius: 40px;
+  background: rgba(19, 31, 42, 0.80);
+  backdrop-filter: blur(5px);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.how__main-widgetWrapper-title {
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: linear-gradient(180deg, #224D75 41.67%, #4490B4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.how__main-widgetWrapper-iframe {
+  height: 455px;
+  width: 100%;
+}
+
+.how__main-widgetWrapper-coinTop {
+  position: absolute;
+  left: -70px;
+  top: -50px;
+}
+
+.how__main-widgetWrapper-coinBottom {
+  position: absolute;
+  right: -120px;
+  bottom: -20px;
+}

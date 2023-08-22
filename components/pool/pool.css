@@ -1,0 +1,57 @@
+.sectionHeader.pool__header {
+  margin-bottom: 100px;
+}
+
+.pool__header-coloredBox {
+  border-radius: 32px;
+  background: #06907B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 30px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.sectionHeader__subtitle .pool__header-coloredBox-text {
+  text-align: left;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+
+.pool__partners {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 100px;
+
+  justify-content: stretch;
+}
+
+.pool__partners-item {
+  border-radius: 40px;
+  background: rgba(217, 239, 252, 0.15);
+  backdrop-filter: blur(5px);
+  padding: 30px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8DD6CA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.pool__partners-item-icon {
+  width: 100%;
+  max-width: 150px;
+  height: 100%;
+}
+
+.pool__partners-item-btn {
+  gap: 10px;
+}

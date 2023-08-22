@@ -1,0 +1,54 @@
+.woodPins {
+  margin-bottom: 100px;
+}
+
+.woodPins__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.woodPins__wrapper-item {
+  position: relative;
+  padding: 40px;
+  width: 100%;
+}
+
+.woodPins__wrapper-item-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 100%;
+  filter: drop-shadow(0px 10px 20px rgba(31, 50, 80, 0.60));
+}
+
+.woodPins__wrapper-item-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.woodPins__wrapper-item-content-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.woodPins__wrapper-item-content-text-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFD8BC;
+}
+
+.woodPins__wrapper-item-content-text-value {
+  font-size: 18px;
+  font-family: 'Mochiy Pop One', sans-serif;
+  color: #E4EEF4;
+}

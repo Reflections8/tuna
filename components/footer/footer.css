@@ -1,0 +1,71 @@
+.footer {
+  background-color: #071E30;
+}
+
+.footer__inner {
+  padding: 40px 0;
+  border-top: 1px solid rgba(147, 234, 255, 0.10);
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.footer__inner-logoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__inner-logoWrapper-logo {
+  max-width: 195px;
+}
+
+.footer__inner-logoWrapper-text {
+  color: rgba(141, 214, 202, 0.80);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer__inner-cards {
+  display: flex;
+  gap: 80px;
+  justify-content: space-between;
+}
+
+.footer__inner-cards-item {
+  padding: 20px 50px 25px 50px;
+  background-color: rgba(217, 239, 252, .1);
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer__inner-cards-item-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+  max-width: 60px;
+}
+
+.footer__inner-cards-item-title {
+  color: #8BAAC3;
+}
+
+.footer__inner-cards-item-link {
+  text-decoration: underline;
+  color: #25B845;
+}
+
+.footer__inner-cards-item-link--Light {
+  color: #FAF0AC;
+  text-decoration: none;
+}
+
+.footer__inner-cards-item-link:hover {
+  text-decoration: none;
+}

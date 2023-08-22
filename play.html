@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<!-- Encoding -->
+		<meta charset="UTF-8">
+
+		<!-- Language -->
+		<meta http-equiv="content-language" content="en"/>
+
+		<!-- Author -->
+		<meta name="author" content="Ruslan Feduleyev">
+
+		<!-- Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Title/Description -->
+		<title>Tuna</title>
+		<meta name="description" content="Develop your lamon plantations, compete at the fair and make a profit"/>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Font: * any font you want to load from Google Fonts CDN -->
+		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Nunito:wght@500&display=swap"
+					rel="stylesheet">
+
+		<!-- normalize.css -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+
+		<!-- Global CSS file -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- gradient left -->
+<div class="body__gradient body__gradient--left"></div>
+<!-- gradient right -->
+<div class="body__gradient body__gradient--right"></div>
+
+<!-- components/header -->
+<header class="header">
+
+		<div class="header__content">
+
+				<!-- Logo -->
+				<img src="assets/images/logo.svg"
+						 alt="logo"
+						 class="header__content-logo">
+
+				<!-- Nav -->
+				<nav class="header__content-nav">
+						<!-- Item -->
+						<a href="index.html"
+							 class="header__content-nav-item header__content-nav-item--Active"
+							 data-hover-scale>
+								Home
+						</a>
+
+						<!-- Item -->
+						<a href="marketing.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Marketing
+						</a>
+
+						<!-- Item -->
+						<a href="partners.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Partners
+						</a>
+
+						<!-- Item -->
+						<a href="token.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Token TUNA
+						</a>
+				</nav>
+
+				<!-- Social -->
+				<div class="header__content-social">
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="dark">
+								<img src="assets/images/twitter.svg"
+										 alt="twitter"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Twitter</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Channel</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Chat</span>
+						</a>
+				</div>
+
+
+				<div class="header__content-playBtnWrapper"
+						 data-hover-scale>
+
+						<!-- ui/volumeBtn -->
+						<a href="#"
+							 class="volumeBtn">
+								<img src="assets/images/playnow.svg"
+										 alt="icon"
+										 class="volumeBtn__icon">
+								<span class="volumeBtn__text">
+								Play Now
+						</span>
+						</a>
+				</div>
+
+		</div>
+
+</header>
+
+<main>
+
+		<!-- components/intro -->
+		<section class="intro">
+
+				<!-- BACKGROUND LAYERS -->
+				<!-- 1-1) Main picture -->
+				<img src="components/intro/img/bg-2.jpg" alt="bg" class="intro__bgMain"
+						 data-parallax-mouse
+						 data-parallax-size="10">
+				<!-- 1-2) Waves -->
+				<img src="components/intro/img/bg-waves.svg" alt="waves" class="intro__bgWaves">
+				<!-- 1-3) Waves-lights -->
+				<img src="components/intro/img/bg-waves-lights.svg" alt="waves-lights" class="intro__bgWavesLights">
+				<!-- 1-4) Lights -->
+				<img src="components/intro/img/bg-lights.png" alt="lights" class="intro__bgLights"
+						 data-parallax-mouse
+						 data-parallax-size="20">
+
+				<!-- STATIC CONTENT -->
+				<div class="container container--intro">
+
+						<!-- 1-6) Man in boat -->
+						<img src="components/intro/img/bg-man.png" alt="man" class="intro__bgMan intro__bgMan--Play"
+								 data-parallax-mouse
+								 data-parallax-size="100">
+
+						<div class="intro__content--Play intro__play">
+
+								<!-- 1 list left -->
+								<div class="intro__play-item">
+										<img src="components/intro/img/play/list-left.svg"
+												 alt="list"
+												 class="intro__play-item-listBg">
+
+										<div class="intro__play-item-content">
+												<div class="intro__play-item-content-title">
+														Plantation Ha.
+												</div>
+
+												<div class="intro__play-item-content-bigNumber">
+														1508
+												</div>
+
+												<div class="intro__play-item-content-smallNumber">
+														<span>=1508469</span> <span>USDT</span>
+												</div>
+										</div>
+								</div>
+
+								<!-- 2 ui/card -->
+								<div class="card intro__play-item">
+
+										<div class="card__iconWrapper intro__play-item-iconWrapper">
+												<img src="assets/images/woodPins/circle.svg"
+														 alt="pin"
+														 class="card__iconWrapper-icon intro__play-item-iconWrapper-icon">
+
+												<img src="components/intro/img/play/money.svg"
+														 alt="money"
+														 class="card__iconWrapper-text intro__play-item-iconWrapper-text">
+										</div>
+
+
+										<div class="card__title intro__play-item-title">
+												123.4567890
+										</div>
+
+										<!-- ui/coloredBtn -->
+										<a href="#"
+											 class="coloredBtn stamp__box-content-btnSection-btn stamp__box-content-btnSection-btn--Colored"
+											 data-hover-scale>
+												<img src="assets/images/arrow-right.svg"
+														 alt="arrow-right"
+														 class="coloredBtn-icon">
+												<span class="coloredBtn-text">
+																Balance
+														</span>
+										</a>
+								</div>
+
+								<!-- 3 ui/card -->
+								<div class="card intro__play-item">
+
+										<div class="card__iconWrapper intro__play-item-iconWrapper">
+												<img src="assets/images/woodPins/circle.svg"
+														 alt="pin"
+														 class="card__iconWrapper-icon intro__play-item-iconWrapper-icon">
+
+												<img src="components/intro/img/play/reload.svg"
+														 alt="reload"
+														 class="card__iconWrapper-text intro__play-item-iconWrapper-text">
+										</div>
+
+
+										<div class="card__title intro__play-item-title">
+												123.4567890
+										</div>
+
+										<!-- ui/coloredBtn -->
+										<a href="#"
+											 class="coloredBtn stamp__box-content-btnSection-btn stamp__box-content-btnSection-btn--Colored"
+											 data-hover-scale>
+												<img src="assets/images/arrow-right.svg"
+														 alt="arrow-right"
+														 class="coloredBtn-icon">
+												<span class="coloredBtn-text">
+																Reinvest
+														</span>
+										</a>
+								</div>
+
+								<!-- 4 list right -->
+								<div class="intro__play-item">
+										<img src="components/intro/img/play/list-right.svg"
+												 alt="list"
+												 class="intro__play-item-listBg">
+
+										<div class="intro__play-item-content">
+												<div class="intro__play-item-content-title">
+														Earned Fishs
+												</div>
+
+												<div class="intro__play-item-content-bigNumber">
+														154
+												</div>
+
+												<div class="intro__play-item-content-smallNumber">
+														0% Daily
+												</div>
+										</div>
+								</div>
+
+						</div>
+
+						<!-- ui/volumeBtn -->
+						<a class="volumeBtn card__button steps__cards-button"
+							 data-hover-scale
+							 data-modal-button="connect-wallet">
+								<img src="components/intro/img/play/bag.svg"
+										 alt="icon"
+										 class="volumeBtn__icon">
+								<span class="volumeBtn__text">Buy Fish</span>
+						</a>
+				</div>
+
+		</section>
+
+		<!-- components/progress -->
+		<section class="progress">
+
+				<div class="container">
+
+						<!-- ui/sectionHeader -->
+						<div class="progress__header sectionHeader">
+								<h2 class="sectionHeader__title">
+										Your Profitability
+								</h2>
+								<div class="sectionHeader__subtitle">
+										The smart contract code is public and has been verified by an audit company: The Stamp Smart
+										Contract Audit
+										Develop your lamon plantations, compete at the fair and make a profit
+								</div>
+						</div>
+
+						<div class="progress__box">
+
+								<div class="progress__box-fishCardWrapper">
+
+										<!-- fish card -->
+										<div class="progress__box-fishCard progress__box-fishCard--Active">
+												<img src="components/progress/img/fish1.svg"
+														 alt="fish"
+														 class="progress__box-fishCard-img">
+
+												<!-- ui/OvalPin -->
+												<div class="ovalPin progress__box-fishCard-woodPin"
+														 data-oval-pin-size="74">
+														<img src="ui/ovalPin/img/74.svg"
+																 alt="ovalPin"
+																 class="ovalPin__bg">
+														<div class="ovalPin__text">
+																3%
+														</div>
+												</div>
+										</div>
+
+										<!-- fish card -->
+										<div class="progress__box-fishCard">
+												<img src="components/progress/img/fish2.svg"
+														 alt="fish"
+														 class="progress__box-fishCard-img">
+
+												<!-- ui/OvalPin -->
+												<div class="ovalPin progress__box-fishCard-woodPin"
+														 data-oval-pin-size="74">
+														<img src="ui/ovalPin/img/74.svg"
+																 alt="ovalPin"
+																 class="ovalPin__bg">
+														<div class="ovalPin__text">
+																3,5%
+														</div>
+												</div>
+										</div>
+
+										<!-- fish card -->
+										<div class="progress__box-fishCard">
+												<img src="components/progress/img/fish3.svg"
+														 alt="fish"
+														 class="progress__box-fishCard-img">
+
+												<!-- ui/OvalPin -->
+												<div class="ovalPin progress__box-fishCard-woodPin"
+														 data-oval-pin-size="74">
+														<img src="ui/ovalPin/img/74.svg"
+																 alt="ovalPin"
+																 class="ovalPin__bg">
+														<div class="ovalPin__text">
+																4%
+														</div>
+												</div>
+										</div>
+								</div>
+
+								<div class="progress__box-progressBarWrapper">
+										<div class="progress__box-progressBarWrapper-progress"></div>
+								</div>
+						</div>
+
+				</div>
+		</section>
+
+		<!-- components/tabCards -->
+		<section class="tabCards">
+
+				<!--bg -->
+				<img src="assets/images/commonPage-bg.png" alt="bg" class="commonPage__bg">
+
+				<div class="tabCards__box">
+
+						<!-- ui/card -->
+						<div class="card tabCards__box-item tabCards__box-item--Active">
+
+								<!-- ui/OvalPin -->
+								<div class="ovalPin tabCards__box-item-woodPin"
+										 data-oval-pin-size="230">
+										<img src="ui/ovalPin/img/230.svg"
+												 alt="ovalPin"
+												 class="ovalPin__bg">
+										<div class="ovalPin__text">
+												+0.3%
+										</div>
+								</div>
+
+								<!-- title -->
+								<div class="tabCards__box-item-title">
+										Fish Food
+								</div>
+
+								<!-- img -->
+								<img src="components/tabCards/img/1.png"
+										 alt="img"
+										 class="tabCards__box-item-img">
+
+								<!-- ui/transparentBtn -->
+								<a class="transparentBtn tabCards__box-item-btn">
+										<img src="components/tabCards/img/currency.png"
+												 alt="tuna"
+												 class="transparentBtn__icon">
+										<span class="transparentBtn__text tabCards__box-item-btn-text">
+														100 TUNA
+										</span>
+								</a>
+
+								<!-- text -->
+								<div class="tabCards__box-item-text">
+										Groundbait lures fish to your fishing spot and allows you to increase the amount of fish caught
+								</div>
+						</div>
+
+						<!-- ui/card -->
+						<div class="card tabCards__box-item ">
+
+								<!-- ui/OvalPin -->
+								<div class="ovalPin tabCards__box-item-woodPin"
+										 data-oval-pin-size="230">
+										<img src="ui/ovalPin/img/230.svg"
+												 alt="ovalPin"
+												 class="ovalPin__bg">
+										<div class="ovalPin__text">
+												+0.5%
+										</div>
+								</div>
+
+								<!-- title -->
+								<div class="tabCards__box-item-title">
+										Bait (shrimp)
+								</div>
+
+								<!-- img -->
+								<img src="components/tabCards/img/2.png"
+										 alt="img"
+										 class="tabCards__box-item-img">
+
+								<!-- ui/transparentBtn -->
+								<a class="transparentBtn tabCards__box-item-btn">
+										<img src="components/tabCards/img/currency.png"
+												 alt="tuna"
+												 class="transparentBtn__icon">
+										<span class="transparentBtn__text tabCards__box-item-btn-text">
+														100 TUNA
+										</span>
+								</a>
+
+								<!-- text -->
+								<div class="tabCards__box-item-text">
+										Groundbait lures fish to your fishing spot and allows you to increase the amount of fish caught
+								</div>
+						</div>
+
+						<!-- ui/card -->
+						<div class="card tabCards__box-item">
+
+								<!-- ui/OvalPin -->
+								<div class="ovalPin tabCards__box-item-woodPin"
+										 data-oval-pin-size="230">
+										<img src="ui/ovalPin/img/230.svg"
+												 alt="ovalPin"
+												 class="ovalPin__bg">
+										<div class="ovalPin__text">
+												+1.0%
+										</div>
+								</div>
+
+								<!-- title -->
+								<div class="tabCards__box-item-title">
+										Fishing Rod
+								</div>
+
+								<!-- img -->
+								<img src="components/tabCards/img/3.png"
+										 alt="img"
+										 class="tabCards__box-item-img">
+
+								<!-- ui/transparentBtn -->
+								<a class="transparentBtn tabCards__box-item-btn">
+										<img src="components/tabCards/img/currency.png"
+												 alt="tuna"
+												 class="transparentBtn__icon">
+										<span class="transparentBtn__text tabCards__box-item-btn-text">
+														100 TUNA
+										</span>
+								</a>
+
+								<!-- text -->
+								<div class="tabCards__box-item-text">
+										Groundbait lures fish to your fishing spot and allows you to increase the amount of fish caught
+								</div>
+						</div>
+
+				</div>
+
+				<!-- ui/volumeBtn -->
+				<a class="volumeBtn tabCards__box-btn"
+					 data-hover-scale
+					 data-modal-button="make-deposit">
+						<img src="assets/images/bag.svg"
+								 alt="icon"
+								 class="volumeBtn__icon">
+						<span class="volumeBtn__text">Buy Fish</span>
+				</a>
+
+		</section>
+
+</main>
+
+<footer class="footer">
+		<div class="container--big">
+				<div class="footer__inner">
+
+						<div class="footer__inner-logoWrapper">
+								<img src="components/footer/img/logo.svg"
+										 alt="logo"
+										 class="footer__inner-logoWrapper-logo">
+
+								<div class="footer__inner-logoWrapper-text">
+										2023 © All rights reserved
+								</div>
+						</div>
+
+						<div class="footer__inner-cards">
+
+								<!-- item -->
+								<div class="footer__inner-cards-item">
+										<img src="components/footer/img/1.svg"
+												 alt="icon"
+												 class="footer__inner-cards-item-icon">
+
+										<div class="footer__inner-cards-item-title">
+												Contract works with USDT (BSC-BEP20)
+										</div>
+										<a href="#" class="footer__inner-cards-item-link">
+												See In Explorer
+										</a>
+								</div>
+
+								<!-- item -->
+								<div class="footer__inner-cards-item">
+										<img src="components/footer/img/2.svg"
+												 alt="icon"
+												 class="footer__inner-cards-item-icon">
+
+										<div class="footer__inner-cards-item-title">
+												PDF Presentation
+										</div>
+										<a href="#" class="footer__inner-cards-item-link">
+												Open File
+										</a>
+								</div>
+
+								<!-- item -->
+								<div class="footer__inner-cards-item">
+										<img src="components/footer/img/3.svg"
+												 alt="icon"
+												 class="footer__inner-cards-item-icon">
+
+										<div class="footer__inner-cards-item-title">
+												Admin Contact
+										</div>
+										<a href="#" class="footer__inner-cards-item-link footer__inner-cards-item-link--Light">
+												samplename@gmail.com
+										</a>
+								</div>
+						</div>
+
+				</div>
+		</div>
+</footer>
+
+<!-- components/modalWrapper -->
+<div class="modalWrapper modalWrapperHidden">
+
+		<!-- CONNECT WALLET MODAL -->
+		<div class="modalWrapper__body connectWallet"
+				 data-modal-body="connect-wallet">
+
+				<!-- close icon -->
+				<img src="components/modalWrapper/img/close.svg"
+						 alt="close"
+						 class="modalWrapper__body-closeIcon"
+						 data-hover-scale>
+
+				<!-- woodPin -->
+				<div class="modalWrapper__body-woodPinWrapper">
+						<img src="assets/images/woodPins/circle.svg"
+								 alt="pin"
+								 class="modalWrapper__body-woodPinWrapper-bg">
+
+						<img src="components/modalWrapper/connectWallet/img/pin.svg"
+								 alt="wallet"
+								 class="modalWrapper__body-woodPinWrapper-icon">
+				</div>
+
+				<div class="modalWrapper__body-title">
+						Connect Wallet
+				</div>
+
+				<div class="modalWrapper__body-inner connectWallet__bodyInner">
+
+						<!-- item -->
+						<a href="#"
+							 class="connectWallet__bodyInner-item"
+							 data-hover-scale>
+								<img src="components/modalWrapper/connectWallet/img/metamask.svg"
+										 alt="metamask"
+										 class="connectWallet__bodyInner-item-icon">
+
+								<span class="connectWallet__bodyInner-item-text">
+												Metamask: Computer / DApp
+										</span>
+						</a>
+
+						<!-- item -->
+						<a href="#"
+							 class="connectWallet__bodyInner-item"
+							 data-hover-scale>
+								<img src="components/modalWrapper/connectWallet/img/shield.svg"
+										 alt="shield"
+										 class="connectWallet__bodyInner-item-icon">
+
+								<span class="connectWallet__bodyInner-item-text">
+												Trust Wallet: DApp
+										</span>
+						</a>
+
+						<!-- item -->
+						<a href="#"
+							 class="connectWallet__bodyInner-item"
+							 data-hover-scale>
+								<img src="components/modalWrapper/connectWallet/img/shield.svg"
+										 alt="shield"
+										 class="connectWallet__bodyInner-item-icon">
+
+								<span class="connectWallet__bodyInner-item-text">
+												Trust Wallet: Computer
+										</span>
+						</a>
+				</div>
+		</div>
+
+		<!-- MAKE DEPOSIT MODAL -->
+		<div class="modalWrapper__body makeDeposit"
+				 data-modal-body="make-deposit">
+
+				<!-- close icon -->
+				<img src="components/modalWrapper/img/close.svg"
+						 alt="close"
+						 class="modalWrapper__body-closeIcon"
+						 data-hover-scale>
+
+				<!-- woodPin -->
+				<div class="modalWrapper__body-woodPinWrapper">
+						<img src="assets/images/woodPins/circle.svg"
+								 alt="pin"
+								 class="modalWrapper__body-woodPinWrapper-bg">
+
+						<img src="components/modalWrapper/makeDeposit/img/pin.svg"
+								 alt="wallet"
+								 class="modalWrapper__body-woodPinWrapper-icon">
+				</div>
+
+				<div class="modalWrapper__body-title">
+						Make deposit
+				</div>
+
+				<div class="modalWrapper__body-inner makeDeposit__bodyInner">
+
+						<!-- list -->
+						<div class="makeDeposit__bodyInner-list">
+								<!-- row text -->
+								<div class="makeDeposit__bodyInner-row makeDeposit__bodyInner-row--First">
+										<div class="makeDeposit__bodyInner-row-now">
+												Now:
+										</div>
+										<div class="makeDeposit__bodyInner-row-willBe">
+												Will be:
+										</div>
+								</div>
+
+								<!-- row -->
+								<div class="makeDeposit__bodyInner-row">
+										<div class="makeDeposit__bodyInner-row-title">
+												Wallet balance:
+										</div>
+										<div class="makeDeposit__bodyInner-row-nowValue">
+												1234556 USDT
+										</div>
+										<img src="components/modalWrapper/makeDeposit/img/arrow-right.svg"
+												 alt="arrow"
+												 class="makeDeposit__bodyInner-row-arrow">
+										<div class="makeDeposit__bodyInner-row-willBeValue">
+												1234556 USDT
+										</div>
+								</div>
+
+								<!-- row -->
+								<div class="makeDeposit__bodyInner-row">
+										<div class="makeDeposit__bodyInner-row-title">
+												Deposit:
+										</div>
+										<div class="makeDeposit__bodyInner-row-nowValue">
+												1234556 USDT
+										</div>
+										<img src="components/modalWrapper/makeDeposit/img/arrow-right.svg"
+												 alt="arrow"
+												 class="makeDeposit__bodyInner-row-arrow">
+										<div class="makeDeposit__bodyInner-row-willBeValue">
+												1234556 USDT
+										</div>
+								</div>
+
+								<!-- row -->
+								<div class="makeDeposit__bodyInner-row">
+										<div class="makeDeposit__bodyInner-row-title">
+												Plantation:
+										</div>
+										<div class="makeDeposit__bodyInner-row-nowValue">
+												1234556 USDT
+										</div>
+										<img src="components/modalWrapper/makeDeposit/img/arrow-right.svg"
+												 alt="arrow"
+												 class="makeDeposit__bodyInner-row-arrow">
+										<div class="makeDeposit__bodyInner-row-willBeValue">
+												1234556 USDT
+										</div>
+								</div>
+
+								<!-- row -->
+								<div class="makeDeposit__bodyInner-row">
+										<div class="makeDeposit__bodyInner-row-title">
+												Daily profit:
+										</div>
+										<div class="makeDeposit__bodyInner-row-nowValue">
+												1234556 USDT
+										</div>
+										<img src="components/modalWrapper/makeDeposit/img/arrow-right.svg"
+												 alt="arrow"
+												 class="makeDeposit__bodyInner-row-arrow">
+										<div class="makeDeposit__bodyInner-row-willBeValue">
+												1234556 USDT
+										</div>
+								</div>
+						</div>
+
+						<!-- input block -->
+						<div class="makeDeposit__bodyInner-inputBlock">
+
+								<label class="makeDeposit__bodyInner-inputBlock-label"
+											 for="deposit-amount-input">
+										Enter deposit amount:
+								</label>
+
+								<div class="makeDeposit__bodyInner-inputBlock-wrapper">
+										<input type="text"
+													 class="makeDeposit__bodyInner-inputBlock-wrapper-input"
+													 id="deposit-amount-input"
+													 pattern="[1-9][0-9]"
+													 inputmode="numeric"
+													 placeholder="Enter number">
+										<div class="makeDeposit__bodyInner-inputBlock-wrapper-afterText">
+												USDT
+										</div>
+								</div>
+						</div>
+
+						<!-- ui/volumeBtn -->
+						<a href="#"
+							 class="volumeBtn makeDeposit__bodyInner-btn"
+							 data-hover-scale>
+								<span class="volumeBtn__text makeDeposit__bodyInner-btn-text">
+								Make Deposit
+								</span>
+						</a>
+
+
+				</div>
+
+				<div class="makeDeposit__footerText">
+						The minimum amount is 40 USDT. The maximum total amount is 2000 USDT
+				</div>
+		</div>
+
+		<!-- ERROR -->
+		<!--		<div class="modalWrapper__toast" data-toast-type="error">-->
+
+		<!--				&lt;!&ndash; error icon &ndash;&gt;-->
+		<!--				<img src="components/modalWrapper/toasts/img/error.svg"-->
+		<!--						 alt="error"-->
+		<!--						 class="modalWrapper__toast-img">-->
+
+		<!--				<div class="modalWrapper__toast-content">-->
+		<!--						<div class="modalWrapper__toast-content-title">-->
+		<!--								Error-->
+		<!--						</div>-->
+		<!--						<div class="modalWrapper__toast-content-text">-->
+		<!--								You don't have funds in your account-->
+		<!--						</div>-->
+		<!--				</div>-->
+		<!--		</div>-->
+
+		<!-- SUCCESS -->
+		<!--		<div class="modalWrapper__toast" data-toast-type="success">-->
+
+		<!--				&lt;!&ndash; success icon &ndash;&gt;-->
+		<!--				<img src="components/modalWrapper/toasts/img/success.svg"-->
+		<!--						 alt="error"-->
+		<!--						 class="modalWrapper__toast-img">-->
+
+		<!--				<div class="modalWrapper__toast-content">-->
+		<!--						<div class="modalWrapper__toast-content-title">-->
+		<!--								Success-->
+		<!--						</div>-->
+		<!--						<div class="modalWrapper__toast-content-text">-->
+		<!--								You don't have funds in your account-->
+		<!--						</div>-->
+		<!--				</div>-->
+		<!--		</div>-->
+
+		<!-- WARNING -->
+		<!--		<div class="modalWrapper__toast" data-toast-type="warning">-->
+
+		<!--				&lt;!&ndash; warning icon &ndash;&gt;-->
+		<!--				<img src="components/modalWrapper/toasts/img/warning.svg"-->
+		<!--						 alt="error"-->
+		<!--						 class="modalWrapper__toast-img">-->
+
+		<!--				<div class="modalWrapper__toast-content">-->
+		<!--						<div class="modalWrapper__toast-content-title">-->
+		<!--								Warning-->
+		<!--						</div>-->
+		<!--						<div class="modalWrapper__toast-content-text">-->
+		<!--								You don't have funds in your account-->
+		<!--						</div>-->
+		<!--				</div>-->
+		<!--		</div>-->
+
+</div>
+
+<!-- Global script -->
+<script src="assets/js/index.js"></script>
+
+<!-- Component scripts -->
+<script src="components/header/header.js"></script>
+<script src="components/footer/footer.js"></script>
+<script src="components/intro/intro.js"></script>
+
+<script src="components/modalWrapper/modalWrapper.js"></script>
+
+
+</body>
+</html>

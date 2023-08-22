@@ -1,0 +1,182 @@
+.top {
+  position: relative;
+  z-index: 2;
+  margin-top: -365px;
+  padding-bottom: 120px;
+}
+
+.top__lists {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+}
+
+.top__lists-item {
+  position: relative;
+}
+
+.top__lists-item-pin {
+  transform: translate(-50%, -50%);
+  color: #FFD8BC;
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.top__lists-item-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.top__lists-item--First .top__lists-item-content {
+  top: 58%;
+  left: 54%;
+}
+
+.top__lists-item--First .top__lists-item-pin {
+  left: 54%;
+  top: 10px;
+}
+
+.top__lists-item--Second .top__lists-item-content {
+  top: 58%;
+  left: 46%;
+}
+
+.top__lists-item--Second .top__lists-item-pin {
+  left: 46%;
+  top: 10px;
+}
+
+.top__lists-item-content-text {
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  background: linear-gradient(180deg, #224D75 41.67%, #4490B4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top__lists-item-content-btn {
+  background-color: #06907B;
+  margin: 0 auto;
+}
+
+.sectionHeader__subtitle.top__header-coloredBox {
+  border-radius: 32px;
+  background: #06907B;
+  padding: 16px 30px;
+  color: #ffffff;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.top__rating {
+  margin-top: 80px;
+  display: flex;
+  row-gap: 80px;
+  column-gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.top__rating-item:first-of-type {
+  flex-basis: 100%;
+  margin: 0 400px;
+}
+
+.top__rating-item {
+  padding: 24px 30px 30px 30px;
+  width: fit-content;
+}
+
+.card.top__rating-item--Simple {
+  background: rgba(217, 239, 252, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+.top__rating-item-iconWrapper {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 0;
+}
+
+.top__rating-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.top__rating-item-header-key {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.top__rating-item-header-key-text {
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  background: linear-gradient(180deg, #224D75 41.67%, #4490B4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top__rating-item--Simple .top__rating-item-header-key-text {
+  background: linear-gradient(180deg, #D9EFFC 41.67%, #4490B4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.top__rating-item--Simple .top__rating-item-btn-text {
+  color: #8DD6CA;
+}
+
+.top__rating-item-header-value {
+  color: #06907B;
+  text-align: right;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.transparentBtn.top__rating-item-btn {
+  padding: 20px;
+  width: fit-content;
+  gap: 10px;
+}
+
+.top__rating-item-btn-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #853A0C;
+}
+
+.top__btn {
+  margin: 0 auto;
+}

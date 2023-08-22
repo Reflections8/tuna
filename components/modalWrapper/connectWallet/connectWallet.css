@@ -1,0 +1,37 @@
+.connectWallet {
+  max-width: 550px;
+  width: 100%;
+}
+
+.connectWallet__bodyInner {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.connectWallet__bodyInner-item {
+  border-radius: 32px;
+  background: #F1FAFF;
+  box-shadow: 0px 5px 10px 0px rgba(31, 50, 80, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px 20px;
+  position: relative;
+}
+
+.connectWallet__bodyInner-item-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.connectWallet__bodyInner-item-text {
+  color: #06907B;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}

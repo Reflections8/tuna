@@ -1,0 +1,8 @@
+.transparentBtn {
+  border-radius: 32px;
+  border: 2px solid rgba(68, 144, 180, 0.50);
+  background: transparent;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+}

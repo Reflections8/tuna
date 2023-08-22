@@ -1,0 +1,33 @@
+.charges {
+  position: relative;
+  z-index: 2;
+  margin-top: -365px;
+  margin-bottom: 100px;
+}
+
+.charges__list {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.charges__list-bg {
+  margin: 0 auto;
+  display: block;
+}
+
+.charges__list-text {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 40px;
+  color: #9A4A34;
+  width: 100%;
+  text-align: center;
+}

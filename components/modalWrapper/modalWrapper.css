@@ -1,0 +1,79 @@
+.modalWrapper {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  min-width: 100vw;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  background: rgba(19, 51, 77, 0.80);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.modalWrapperHidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modalWrapper__body {
+  padding: 65px 30px 30px 30px;
+  border-radius: 40px;
+  background: #D9EFFC;
+  position: relative;
+}
+
+.modalWrapper__bodyHidden {
+  display: none;
+}
+
+.modalWrapper__body-closeIcon {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  right: 30px;
+}
+
+.modalWrapper__body-title {
+  text-align: center;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  background: linear-gradient(180deg, #224D75 41.67%, #4490B4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.modalWrapper__body-inner {
+  border-radius: 40px;
+  background: rgba(68, 144, 180, 0.20);
+  padding: 30px;
+}
+
+.modalWrapper__body-woodPinWrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.modalWrapper__body-woodPinWrapper-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modalChildHidden {
+  display: none;
+}
