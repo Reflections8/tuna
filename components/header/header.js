@@ -13,4 +13,10 @@ document.addEventListener('DOMContentLoaded', () => {
       burgerIcon.classList.remove('header__content-burgerIconActive')
     }
   })
+
+  /* Header logo link */
+  const headerLogo = document.querySelector('.header__content-logo')
+  headerLogo.addEventListener('click', () => {
+    window.location.href = 'index.html'
+  })
 })

@@ -27,8 +27,8 @@
 .header__content-logo {
   position: absolute;
   left: -160px;
-  pointer-events: none;
   user-select: none;
+  cursor: pointer;
 }
 
 .header__content-nav {
