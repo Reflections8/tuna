@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<!-- Encoding -->
+		<meta charset="UTF-8">
+
+		<!-- Language -->
+		<meta http-equiv="content-language" content="en"/>
+
+		<!-- Author -->
+		<meta name="author" content="Ruslan Feduleyev">
+
+		<!-- Viewport -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Title/Description -->
+		<title>Tuna</title>
+		<meta name="description" content="Develop your lamon plantations, compete at the fair and make a profit"/>
+
+		<!-- Bootstrap CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css"
+					integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ=="
+					crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+		<!-- Font: * any font you want to load from Google Fonts CDN -->
+		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Nunito:wght@500&display=swap"
+					rel="stylesheet">
+
+		<!-- normalize.css -->
+		<link rel="stylesheet" href="assets/css/normalize.css">
+
+		<!-- Global CSS file -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<!-- gradient left -->
+<div class="body__gradient body__gradient--left"></div>
+<!-- gradient right -->
+<div class="body__gradient body__gradient--right"></div>
+
+<!-- components/burgerMenu -->
+<div class="burgerMenu burgerMenuHidden">
+		<div class="burgerMenuContent">
+				<!-- Nav -->
+				<nav class="header__content-nav header__content-nav--BurgerMenu">
+						<!-- Item -->
+						<a href="pdf-presentation.html"
+							 class="header__content-nav-item header__content-nav-item--Active"
+							 data-hover-scale>
+								Presentation
+						</a>
+
+						<!-- Item -->
+						<a href="marketing.html"
+							 class="header__content-nav-item "
+							 data-hover-scale>
+								Marketing
+						</a>
+
+						<!-- Item -->
+						<a href="partners.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Partners
+						</a>
+
+						<!-- Item -->
+						<a href="token.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Token TUNA
+						</a>
+				</nav>
+
+				<div class="header__content-social header__content-social--BurgerMenu">
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="dark">
+								<img src="assets/images/twitter.svg"
+										 alt="twitter"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Twitter</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Channel</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Chat</span>
+						</a>
+				</div>
+
+				<div class="header__content-playBtnWrapper header__content-playBtnWrapper--BurgerMenu"
+						 data-hover-scale>
+
+						<!-- ui/volumeBtn -->
+						<a href="#"
+							 class="volumeBtn">
+								<img src="assets/images/playnow.svg"
+										 alt="icon"
+										 class="volumeBtn__icon">
+								<span class="volumeBtn__text">
+								Play Now
+						</span>
+						</a>
+				</div>
+		</div>
+</div>
+
+<!-- components/header -->
+<header class="header">
+
+		<div class="header__content">
+
+				<!-- Logo -->
+				<img src="assets/images/logo.svg"
+						 alt="logo"
+						 class="header__content-logo">
+
+				<!-- Nav -->
+				<nav class="header__content-nav">
+						<!-- Item -->
+						<a href="pdf-presentation.html"
+							 class="header__content-nav-item header__content-nav-item--Active"
+							 data-hover-scale>
+								Presentation
+						</a>
+
+						<!-- Item -->
+						<a href="marketing.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Marketing
+						</a>
+
+						<!-- Item -->
+						<a href="partners.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Partners
+						</a>
+
+						<!-- Item -->
+						<a href="token.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Token TUNA
+						</a>
+				</nav>
+
+				<!-- > 1200px Social -->
+				<div class="header__content-social">
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="dark">
+								<img src="assets/images/twitter.svg"
+										 alt="twitter"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Twitter</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Channel</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Chat</span>
+						</a>
+				</div>
+
+				<!-- <= 1200px Social -->
+				<div class="header__content-social--Mobile dropdown">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Socials
+						</a>
+
+						<ul class="dropdown-menu">
+								<li>
+										<!-- Item -->
+										<a href="#"
+											 class="header__content-social-item"
+											 data-hover-scale
+											 data-header-social="dark">
+												<img src="assets/images/twitter.svg"
+														 alt="twitter"
+														 class="header__content-social-item-icon">
+
+												<span class="header__content-social-item-text">Twitter</span>
+										</a>
+								</li>
+
+								<li>
+										<!-- Item -->
+										<a href="#"
+											 class="header__content-social-item"
+											 data-hover-scale
+											 data-header-social="light">
+												<img src="assets/images/telegram.svg"
+														 alt="telegram"
+														 class="header__content-social-item-icon">
+
+												<span class="header__content-social-item-text">Channel</span>
+										</a>
+								</li>
+
+								<li>
+										<!-- Item -->
+										<a href="#"
+											 class="header__content-social-item"
+											 data-hover-scale
+											 data-header-social="light">
+												<img src="assets/images/telegram.svg"
+														 alt="telegram"
+														 class="header__content-social-item-icon">
+
+												<span class="header__content-social-item-text">Chat</span>
+										</a>
+								</li>
+						</ul>
+				</div>
+
+				<div class="header__content-playBtnWrapper"
+						 data-hover-scale>
+
+						<!-- ui/volumeBtn -->
+						<a href="#"
+							 class="volumeBtn">
+								<img src="assets/images/playnow.svg"
+										 alt="icon"
+										 class="volumeBtn__icon">
+								<span class="volumeBtn__text">
+								Play Now
+						</span>
+						</a>
+				</div>
+
+				<!-- <= 991px BURGER ICON -->
+				<div class="header__content-burgerIcon">
+						<img src="components/header/img/burger/burder-line.svg"
+								 alt="line"
+								 class="header__content-burgerIcon-line">
+						<img src="components/header/img/burger/burder-line.svg"
+								 alt="line"
+								 class="header__content-burgerIcon-line">
+						<img src="components/header/img/burger/burder-line.svg"
+								 alt="line"
+								 class="header__content-burgerIcon-line">
+				</div>
+
+		</div>
+
+</header>
+
+<main>
+
+		<!-- components/intro -->
+		<section class="intro intro--common">
+
+				<!-- BACKGROUND LAYERS -->
+				<!-- 1-1) Main picture -->
+				<img src="components/intro/img/bg-common.jpg" alt="bg" class="intro__bgMain intro__bgMain--common"
+						 data-parallax-mouse
+						 data-parallax-size="10">
+				<!-- 1-2) Waves -->
+				<img src="components/intro/img/bg-waves.svg" alt="waves" class="intro__bgWaves">
+				<!-- 1-3) Waves-lights -->
+				<img src="components/intro/img/bg-waves-lights.svg" alt="waves-lights" class="intro__bgWavesLights">
+				<!-- 1-4) Lights -->
+				<img src="components/intro/img/bg-lights.png" alt="lights" class="intro__bgLights intro__bgLights--common"
+						 data-parallax-mouse
+						 data-parallax-size="20">
+
+				<!-- STATIC CONTENT -->
+				<div class="container container--intro">
+
+						<div class="intro__content--Marketing">
+
+								<div class="intro__content-header">
+										<h1 class="intro__content-header-title">
+												PDF Presentation
+										</h1>
+								</div>
+
+						</div>
+				</div>
+
+		</section>
+
+		<!-- components/presentations -->
+		<section class="presentations">
+				<div class="container">
+						<div class="presentations__wrapper">
+
+								<!-- ui/card -->
+								<div class="card presentations__wrapper-item">
+
+										<div class="card__iconWrapper presentations__wrapper-item-iconWrapper">
+												<img src="assets/images/woodPins/circle.svg"
+														 alt="pin"
+														 class="card__iconWrapper-icon presentations__wrapper-item-iconWrapper-icon">
+
+												<img src="components/presentations/img/en.svg"
+														 alt="en"
+														 class="presentations__wrapper-item-iconWrapper-text">
+										</div>
+
+
+										<div class="card__title presentations__wrapper-item-title">
+												English PDF Presentation
+										</div>
+
+										<!-- ui/volumeBtn -->
+										<a href="#"
+											 class="volumeBtn card__button steps__cards-button"
+											 data-hover-scale>
+												<img src="assets/images/file.svg"
+														 alt="icon"
+														 class="volumeBtn__icon">
+												<span class="volumeBtn__text">Open File</span>
+										</a>
+								</div>
+
+								<!-- ui/card -->
+								<div class="card presentations__wrapper-item">
+
+										<div class="card__iconWrapper presentations__wrapper-item-iconWrapper">
+												<img src="assets/images/woodPins/circle.svg"
+														 alt="pin"
+														 class="card__iconWrapper-icon presentations__wrapper-item-iconWrapper-icon">
+
+												<img src="components/presentations/img/ru.svg"
+														 alt="en"
+														 class="presentations__wrapper-item-iconWrapper-text">
+										</div>
+
+
+										<div class="card__title presentations__wrapper-item-title">
+												Russian PDF Presentation
+										</div>
+
+										<!-- ui/volumeBtn -->
+										<a href="#"
+											 class="volumeBtn card__button steps__cards-button"
+											 data-hover-scale>
+												<img src="assets/images/file.svg"
+														 alt="icon"
+														 class="volumeBtn__icon">
+												<span class="volumeBtn__text">Open File</span>
+										</a>
+								</div>
+
+						</div>
+				</div>
+		</section>
+
+</main>
+
+<footer class="footer">
+		<div class="container--big">
+				<div class="footer__inner">
+
+						<div class="footer__inner-logoWrapper">
+								<img src="components/footer/img/logo.svg"
+										 alt="logo"
+										 class="footer__inner-logoWrapper-logo">
+
+								<div class="footer__inner-logoWrapper-text">
+										2023 © All rights reserved
+								</div>
+						</div>
+
+						<div class="footer__inner-cards">
+
+								<!-- item -->
+								<div class="footer__inner-cards-item">
+										<img src="components/footer/img/1.svg"
+												 alt="icon"
+												 class="footer__inner-cards-item-icon">
+
+										<div class="footer__inner-cards-item-title">
+												Contract works with USDT (BSC-BEP20)
+										</div>
+										<a href="#" class="footer__inner-cards-item-link">
+												See In Explorer
+										</a>
+								</div>
+
+								<!-- item -->
+								<div class="footer__inner-cards-item">
+										<img src="components/footer/img/2.svg"
+												 alt="icon"
+												 class="footer__inner-cards-item-icon">
+
+										<div class="footer__inner-cards-item-title">
+												PDF Presentation
+										</div>
+										<a href="#" class="footer__inner-cards-item-link">
+												Open File
+										</a>
+								</div>
+
+								<!-- item -->
+								<div class="footer__inner-cards-item">
+										<img src="components/footer/img/3.svg"
+												 alt="icon"
+												 class="footer__inner-cards-item-icon">
+
+										<div class="footer__inner-cards-item-title">
+												Admin Contact
+										</div>
+										<a href="#" class="footer__inner-cards-item-link footer__inner-cards-item-link--Light">
+												samplename@gmail.com
+										</a>
+								</div>
+						</div>
+
+				</div>
+		</div>
+</footer>
+
+<!-- components/modalWrapper -->
+<div class="modalWrapper modalWrapperHidden">
+
+		<!-- ERROR -->
+<!--		<div class="modalWrapper__toast" data-toast-type="error">-->
+
+<!--				&lt;!&ndash; error icon &ndash;&gt;-->
+<!--				<img src="components/modalWrapper/toasts/img/error.svg"-->
+<!--						 alt="error"-->
+<!--						 class="modalWrapper__toast-img">-->
+
+<!--				<div class="modalWrapper__toast-content">-->
+<!--						<div class="modalWrapper__toast-content-title">-->
+<!--								Error-->
+<!--						</div>-->
+<!--						<div class="modalWrapper__toast-content-text">-->
+<!--								You don't have funds in your account-->
+<!--						</div>-->
+<!--				</div>-->
+<!--		</div>-->
+
+		<!-- SUCCESS -->
+<!--		<div class="modalWrapper__toast" data-toast-type="success">-->
+
+<!--				&lt;!&ndash; success icon &ndash;&gt;-->
+<!--				<img src="components/modalWrapper/toasts/img/success.svg"-->
+<!--						 alt="error"-->
+<!--						 class="modalWrapper__toast-img">-->
+
+<!--				<div class="modalWrapper__toast-content">-->
+<!--						<div class="modalWrapper__toast-content-title">-->
+<!--								Success-->
+<!--						</div>-->
+<!--						<div class="modalWrapper__toast-content-text">-->
+<!--								You don't have funds in your account-->
+<!--						</div>-->
+<!--				</div>-->
+<!--		</div>-->
+
+		<!-- WARNING -->
+<!--		<div class="modalWrapper__toast" data-toast-type="warning">-->
+
+<!--				&lt;!&ndash; warning icon &ndash;&gt;-->
+<!--				<img src="components/modalWrapper/toasts/img/warning.svg"-->
+<!--						 alt="error"-->
+<!--						 class="modalWrapper__toast-img">-->
+
+<!--				<div class="modalWrapper__toast-content">-->
+<!--						<div class="modalWrapper__toast-content-title">-->
+<!--								Warning-->
+<!--						</div>-->
+<!--						<div class="modalWrapper__toast-content-text">-->
+<!--								You don't have funds in your account-->
+<!--						</div>-->
+<!--				</div>-->
+<!--		</div>-->
+
+</div>
+
+<!-- Bootstrap CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/js/bootstrap.min.js"
+				integrity="sha512-fHY2UiQlipUq0dEabSM4s+phmn+bcxSYzXP4vAXItBvBHU7zAM/mkhCZjtBEIJexhOMzZbgFlPLuErlJF2b+0g=="
+				crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Global script -->
+<script src="assets/js/index.js"></script>
+
+<!-- Component scripts -->
+<script src="components/header/header.js"></script>
+<script src="components/footer/footer.js"></script>
+<script src="components/intro/intro.js"></script>
+
+<script src="components/modalWrapper/modalWrapper.js"></script>
+
+</body>
+</html>

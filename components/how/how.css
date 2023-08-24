@@ -167,3 +167,65 @@
   right: -120px;
   bottom: -20px;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+  .how__main {
+    flex-direction: column;
+    gap: 54px;
+  }
+
+  .how__main-accordion {
+    margin-left: unset;
+  }
+
+  .how__main-widgetWrapper {
+    margin-left: unset;
+  }
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+  .how__main-accordion {
+    gap: 46px;
+  }
+
+  .accordion-button {
+    padding: 16px;
+    padding-top: 35px;
+  }
+
+  .accordion-item-woodPinWrapper {
+    max-width: 70px;
+    top: 0;
+    left: 50%;
+  }
+
+  .accordion-item-woodPinWrapper-bg {
+    max-width: 100%;
+  }
+
+  .accordion-item-woodPinWrapper-icon {
+    max-width: 30px;
+  }
+
+  .accordion-button {
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .accordion-button-text {
+    font-size: 16px;
+  }
+
+  .accordion-body {
+    padding: 0 20px 20px 16px;
+  }
+}
+@media screen and (max-width: 576px) {
+
+}

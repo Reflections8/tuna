@@ -45,23 +45,16 @@
 <!-- gradient right -->
 <div class="body__gradient body__gradient--right"></div>
 
-<!-- components/header -->
-<header class="header">
-
-		<div class="header__content">
-
-				<!-- Logo -->
-				<img src="assets/images/logo.svg"
-						 alt="logo"
-						 class="header__content-logo">
-
+<!-- components/burgerMenu -->
+<div class="burgerMenu burgerMenuHidden">
+		<div class="burgerMenuContent">
 				<!-- Nav -->
-				<nav class="header__content-nav">
+				<nav class="header__content-nav header__content-nav--BurgerMenu">
 						<!-- Item -->
-						<a href="index.html"
+						<a href="pdf-presentation.html"
 							 class="header__content-nav-item"
 							 data-hover-scale>
-								Home
+								Presentation
 						</a>
 
 						<!-- Item -->
@@ -86,7 +79,104 @@
 						</a>
 				</nav>
 
-				<!-- Social -->
+				<div class="header__content-social header__content-social--BurgerMenu">
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="dark">
+								<img src="assets/images/twitter.svg"
+										 alt="twitter"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Twitter</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Channel</span>
+						</a>
+
+						<!-- Item -->
+						<a href="#"
+							 class="header__content-social-item"
+							 data-hover-scale
+							 data-header-social="light">
+								<img src="assets/images/telegram.svg"
+										 alt="telegram"
+										 class="header__content-social-item-icon">
+
+								<span class="header__content-social-item-text">Chat</span>
+						</a>
+				</div>
+
+				<div class="header__content-playBtnWrapper header__content-playBtnWrapper--BurgerMenu"
+						 data-hover-scale>
+
+						<!-- ui/volumeBtn -->
+						<a href="#"
+							 class="volumeBtn">
+								<img src="assets/images/playnow.svg"
+										 alt="icon"
+										 class="volumeBtn__icon">
+								<span class="volumeBtn__text">
+								Play Now
+						</span>
+						</a>
+				</div>
+		</div>
+</div>
+
+<!-- components/header -->
+<header class="header">
+
+		<div class="header__content">
+
+				<!-- Logo -->
+				<img src="assets/images/logo.svg"
+						 alt="logo"
+						 class="header__content-logo">
+
+				<!-- Nav -->
+				<nav class="header__content-nav">
+						<!-- Item -->
+						<a href="pdf-presentation.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Presentation
+						</a>
+
+						<!-- Item -->
+						<a href="marketing.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Marketing
+						</a>
+
+						<!-- Item -->
+						<a href="partners.html"
+							 class="header__content-nav-item"
+							 data-hover-scale>
+								Partners
+						</a>
+
+						<!-- Item -->
+						<a href="token.html"
+							 class="header__content-nav-item header__content-nav-item--Active"
+							 data-hover-scale>
+								Token TUNA
+						</a>
+				</nav>
+
+				<!-- > 1200px Social -->
 				<div class="header__content-social">
 
 						<!-- Item -->
@@ -126,6 +216,56 @@
 						</a>
 				</div>
 
+				<!-- <= 1200px Social -->
+				<div class="header__content-social--Mobile dropdown">
+						<a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+								Socials
+						</a>
+
+						<ul class="dropdown-menu">
+								<li>
+										<!-- Item -->
+										<a href="#"
+											 class="header__content-social-item"
+											 data-hover-scale
+											 data-header-social="dark">
+												<img src="assets/images/twitter.svg"
+														 alt="twitter"
+														 class="header__content-social-item-icon">
+
+												<span class="header__content-social-item-text">Twitter</span>
+										</a>
+								</li>
+
+								<li>
+										<!-- Item -->
+										<a href="#"
+											 class="header__content-social-item"
+											 data-hover-scale
+											 data-header-social="light">
+												<img src="assets/images/telegram.svg"
+														 alt="telegram"
+														 class="header__content-social-item-icon">
+
+												<span class="header__content-social-item-text">Channel</span>
+										</a>
+								</li>
+
+								<li>
+										<!-- Item -->
+										<a href="#"
+											 class="header__content-social-item"
+											 data-hover-scale
+											 data-header-social="light">
+												<img src="assets/images/telegram.svg"
+														 alt="telegram"
+														 class="header__content-social-item-icon">
+
+												<span class="header__content-social-item-text">Chat</span>
+										</a>
+								</li>
+						</ul>
+				</div>
 
 				<div class="header__content-playBtnWrapper"
 						 data-hover-scale>
@@ -140,6 +280,19 @@
 								Play Now
 						</span>
 						</a>
+				</div>
+
+				<!-- <= 991px BURGER ICON -->
+				<div class="header__content-burgerIcon">
+						<img src="components/header/img/burger/burder-line.svg"
+								 alt="line"
+								 class="header__content-burgerIcon-line">
+						<img src="components/header/img/burger/burder-line.svg"
+								 alt="line"
+								 class="header__content-burgerIcon-line">
+						<img src="components/header/img/burger/burder-line.svg"
+								 alt="line"
+								 class="header__content-burgerIcon-line">
 				</div>
 
 		</div>
@@ -925,22 +1078,22 @@
 <div class="modalWrapper modalWrapperHidden">
 
 		<!-- ERROR -->
-		<!--		<div class="modalWrapper__toast" data-toast-type="error">-->
+<!--				<div class="modalWrapper__toast" data-toast-type="error">-->
 
-		<!--				&lt;!&ndash; error icon &ndash;&gt;-->
-		<!--				<img src="components/modalWrapper/toasts/img/error.svg"-->
-		<!--						 alt="error"-->
-		<!--						 class="modalWrapper__toast-img">-->
+<!--						&lt;!&ndash; error icon &ndash;&gt;-->
+<!--						<img src="components/modalWrapper/toasts/img/error.svg"-->
+<!--								 alt="error"-->
+<!--								 class="modalWrapper__toast-img">-->
 
-		<!--				<div class="modalWrapper__toast-content">-->
-		<!--						<div class="modalWrapper__toast-content-title">-->
-		<!--								Error-->
-		<!--						</div>-->
-		<!--						<div class="modalWrapper__toast-content-text">-->
-		<!--								You don't have funds in your account-->
-		<!--						</div>-->
-		<!--				</div>-->
-		<!--		</div>-->
+<!--						<div class="modalWrapper__toast-content">-->
+<!--								<div class="modalWrapper__toast-content-title">-->
+<!--										Error-->
+<!--								</div>-->
+<!--								<div class="modalWrapper__toast-content-text">-->
+<!--										You don't have funds in your account-->
+<!--								</div>-->
+<!--						</div>-->
+<!--				</div>-->
 
 		<!-- SUCCESS -->
 		<!--		<div class="modalWrapper__toast" data-toast-type="success">-->

@@ -52,3 +52,51 @@
   font-family: 'Mochiy Pop One', sans-serif;
   color: #E4EEF4;
 }
+
+@media screen and (max-width: 1440px) {
+  .woodPins__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .woodPins__wrapper {
+  }
+
+  .woodPins__wrapper-item {
+    position: relative;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .woodPins__wrapper-item-img {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 660px) {
+  .woodPins__wrapper {
+    grid-template-columns:1fr;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+}

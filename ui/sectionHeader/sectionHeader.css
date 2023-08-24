@@ -17,3 +17,29 @@
   font-size: 18px;
   color: rgba(141, 214, 202, 0.80);
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+  .sectionHeader {
+    gap: 12px;
+  }
+
+  .sectionHeader__title {
+    font-size: 32px;
+  }
+
+  .sectionHeader__subtitle {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+
+}

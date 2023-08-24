@@ -47,3 +47,35 @@
 .partners__btn {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+  .partners__cards {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .partners__cards {
+    gap: 70px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .partners__cards-item {
+    border-radius: 40px;
+    background: #D9EFFC;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: unset;
+  }
+}

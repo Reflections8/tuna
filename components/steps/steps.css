@@ -51,3 +51,26 @@
 .steps__cards-button--Transparent .steps__cards-button-text {
   color: #853A0C;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .steps__cards {
+    flex-direction: column;
+    gap: 72px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+
+}

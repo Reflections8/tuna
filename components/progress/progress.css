@@ -1,4 +1,4 @@
-.progress {
+.progressSection {
   position: relative;
   z-index: 2;
   margin-top: -365px;
@@ -78,4 +78,41 @@
   background: linear-gradient(90deg, #F97F29 0%, #25B845 100%);
   width: 35%;
   height: 100%;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+  .progress__box {
+    border-radius: 30px;
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .progress__box-fishCardWrapper {
+    gap: 8px;
+  }
+  .progress__box-fishCard {
+    border-radius: 20px;
+  }
+
+  .progress__box-fishCard-woodPin.ovalPin {
+    max-width: 52px;
+    height: 35px;
+    bottom: -18px;
+  }
+
+  .progress__box-fishCard-woodPin.ovalPin .ovalPin__text {
+    font-size: 12px;
+  }
 }

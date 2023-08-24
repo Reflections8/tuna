@@ -19,6 +19,7 @@
   font-size: 14px;
   margin-bottom: 0;
   margin-left: auto;
+  word-break: break-word;
 }
 
 .affiliateLink__bodyInner-linkBlock {
@@ -149,4 +150,35 @@
   font-weight: 400;
   font-size: 14px;
   margin-bottom: 3px;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+  .affiliateLink {
+    top: 140px;
+  }
+
+  .affiliateLink__bodyInner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .affiliateLink__bodyInner-btn.transparentBtn.affiliateLink__btn {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .affiliateLink__bodyInner-linkBlock-title {
+    text-align: center;
+  }
 }

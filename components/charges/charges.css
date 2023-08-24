@@ -31,3 +31,25 @@
   width: 100%;
   text-align: center;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+  .charges__list-bg {
+    max-width: 290px;
+  }
+
+  .charges__list-text {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+
+}

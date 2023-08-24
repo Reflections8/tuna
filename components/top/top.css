@@ -12,6 +12,7 @@
   justify-content: center;
   gap: 24px;
   position: relative;
+  z-index: 2;
 }
 
 .top__lists-item {
@@ -90,22 +91,30 @@
 
 .top__rating {
   margin-top: 80px;
-  display: flex;
+  display: grid;
   row-gap: 80px;
   column-gap: 24px;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  grid-template-columns: 1fr 1fr;
 }
 
 .top__rating-item:first-of-type {
-  flex-basis: 100%;
-  margin: 0 400px;
+  grid-column: 1/3;
+  margin: 0 auto;
 }
 
 .top__rating-item {
   padding: 24px 30px 30px 30px;
   width: fit-content;
+}
+
+.top__rating-item:nth-child(2) {
+  margin-left: auto;
+}
+.top__rating-item:nth-child(4) {
+  margin-left: auto;
 }
 
 .card.top__rating-item--Simple {
@@ -175,8 +184,80 @@
   font-size: 14px;
   font-weight: 500;
   color: #853A0C;
+  word-break: break-word;
 }
 
 .top__btn {
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 1060px) {
+  .top__rating {
+    grid-template-columns: 1fr;
+  }
+
+  .top__rating-item:first-of-type {
+    grid-column: unset;
+  }
+
+  .top__rating-item:nth-child(2) {
+    margin-left: unset;
+  }
+  .top__rating-item:nth-child(4) {
+    margin-left: unset;
+  }
+
+  .top__rating-item {
+    grid-column: unset;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 991px) {
+  .ovalPin.top__lists-item-pin {
+    height: 102px;
+    max-width: 162px;
+  }
+
+  .top__lists .ovalPin__text {
+    font-size: 26px;
+  }
+
+  .top__lists-item-bg {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top__lists {
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  .top__rating-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+
+}
+
+@media screen and (max-width: 420px) {
+  .top__lists-item-bg {
+    max-width: 300px;
+  }
+
+  .top__lists-item-content-text {
+    font-size: 16px;
+  }
 }

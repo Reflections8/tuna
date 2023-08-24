@@ -22,16 +22,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   /* Closing logic*/
   const modalWrapper = document.querySelector('.modalWrapper')
-  const modalBody = document.querySelector('.modalWrapper__body')
   const modalCloseIcon = document.querySelector('.modalWrapper__body-closeIcon')
 
   /* Close icon */
-  modalCloseIcon.addEventListener('click', () => {
+  modalCloseIcon?.addEventListener('click', () => {
     modalWrapper.classList.add('modalWrapperHidden')
   })
 
   /* Click on background close */
-  modalWrapper.addEventListener('click', e => {
+  modalWrapper?.addEventListener('click', e => {
     if (!e.target.closest('.modalWrapper__body')) {
       modalWrapper.classList.add('modalWrapperHidden')
     }

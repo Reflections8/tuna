@@ -118,3 +118,49 @@
   color: #224D75;
   text-align: center;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+  .makeDeposit__bodyInner-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .makeDeposit {
+    top: 140px;
+  }
+
+  .makeDeposit__bodyInner {
+    padding: 20px;
+  }
+
+  .makeDeposit__bodyInner-row--First {
+    display: none;
+  }
+
+  .makeDeposit__bodyInner-row-title {
+    margin-bottom: 8px;
+  }
+
+  .makeDeposit__bodyInner-inputBlock-label {
+    text-align: center;
+  }
+
+  .makeDeposit__footerText {
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .makeDeposit__bodyInner {
+    padding: 10px;
+  }
+}

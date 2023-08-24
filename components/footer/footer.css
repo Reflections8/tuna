@@ -13,6 +13,7 @@
 .footer__inner-logoWrapper {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -68,4 +69,70 @@
 
 .footer__inner-cards-item-link:hover {
   text-decoration: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .footer__inner-logoWrapper {
+    display: flex;
+    gap: 10px;
+  }
+
+  .footer__inner-logoWrapper-logo {
+    max-width: 165px;
+  }
+
+  .footer__inner-logoWrapper-text {
+    font-size: 16px;
+  }
+
+  .footer__inner-cards {
+    gap: 40px;
+  }
+
+  .footer__inner-cards-item {
+    padding: 20px 20px 20px 34px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    padding-right: 20px;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+
+  .footer__inner-cards {
+    justify-content: flex-start;
+  }
+
+  .footer__inner-cards-item {
+    padding: 20px 34px 20px 20px;
+    justify-content: center;
+  }
+
+  .footer__inner-cards-item-icon {
+    right: -30px;
+    left: unset;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .footer .container--big {
+    padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__inner-cards {
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
 }

@@ -35,3 +35,37 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+  .connectWallet__bodyInner {
+    gap: 14px;
+  }
+
+  .connectWallet__bodyInner-item {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .connectWallet__bodyInner-item-icon {
+    position: static;
+    transform: none;
+  }
+
+  .connectWallet__bodyInner-item-text {
+    font-size: 16px;
+  }
+
+
+}
+@media screen and (max-width: 576px) {
+
+}

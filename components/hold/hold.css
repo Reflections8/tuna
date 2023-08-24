@@ -38,3 +38,45 @@
 .hold__btn {
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .hold__wrapper-header-title {
+    line-height: 130%;
+  }
+
+  .hold__wrapper {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hold__wrapper {
+    padding: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sectionHeader.hold__wrapper-header {
+    text-align: center;
+  }
+
+  .hold__wrapper-img {
+    max-width: 230px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 576px) {
+  .hold__wrapper {
+    padding: 30px 10px;
+  }
+}

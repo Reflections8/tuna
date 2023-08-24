@@ -55,3 +55,31 @@
 .pool__partners-item-btn {
   gap: 10px;
 }
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1200px) {
+  .pool__partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+@media screen and (max-width: 1100px) {
+  .pool__partners {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 991px) {
+
+}
+@media screen and (max-width: 768px) {
+  .pool__partners {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 576px) {
+  .pool__partners {
+    grid-template-columns: 1fr;
+  }
+}
