@@ -192,7 +192,8 @@
 
 @media screen and (max-width: 991px) {
   .pie__main {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    gap: 100px;
   }
 
   .pie__main-chart {
