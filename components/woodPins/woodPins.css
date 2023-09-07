@@ -59,6 +59,19 @@
     grid-template-columns: 1fr 1fr;
     gap: 24px;
   }
+
+  .woodPins__wrapper-item-img {
+    max-width: 300px;
+  }
+
+  .woodPins__wrapper-item {
+    width: 100%;
+  }
+
+  .woodPins__wrapper-item-content {
+    width: fit-content;
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -72,10 +85,6 @@
     text-align: center;
     justify-content: center;
     display: flex;
-  }
-
-  .woodPins__wrapper-item-img {
-    max-width: 300px;
   }
 }
 

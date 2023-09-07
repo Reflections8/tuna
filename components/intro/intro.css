@@ -276,13 +276,11 @@
   .intro__bgBird {
     left: 40px;
     max-width: 190px;
-    top: 430px;
+    top: 350px;
   }
 
   .intro__bgMan {
-    right: 0px;
-    max-width: 510px;
-    top: 630px;
+    right: -400px;
   }
 
   .intro__content-header {
@@ -308,10 +306,6 @@
 
   .intro__bgBird {
     top: 300px;
-  }
-
-  .intro__bgMan {
-    right: -50%;
   }
 
   .intro__bgMan--Play {
@@ -373,9 +367,15 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .intro__bgMan {
+    right: -500px;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .intro__bgMan {
-    right: -70%;
+
   }
 
   .intro__play-item-content-title {

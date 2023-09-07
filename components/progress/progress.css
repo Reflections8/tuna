@@ -6,7 +6,7 @@
 }
 
 .progress__box {
-  max-width: 670px;
+  max-width: 900px;
   width: 100%;
   border-radius: 40px;
   background: rgba(217, 239, 252, 0.15);
@@ -29,6 +29,8 @@
   padding: 28px 8px;
   position: relative;
   width: fit-content;
+  max-width: 135px;
+  width: 100%;
 }
 
 .progress__box-fishCard--Active {
@@ -44,6 +46,7 @@
   height: 100%;
   width: 100%;
   opacity: 50%;
+  max-width: 120px;
 }
 
 .progress__box-fishCard:after {
@@ -95,7 +98,52 @@
 @media screen and (max-width: 576px) {
   .progress__box {
     border-radius: 30px;
-    padding: 16px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 32px;
+    padding: 32px 16px;
+  }
+
+  .progress__box-fishCardWrapper {
+    flex-direction: column-reverse;
+    margin-bottom: 0;
+    width: 100%;
+    gap: 48px;
+  }
+
+  .progress__box-fishCard {
+    max-width: unset;
+  }
+
+  .progress__box-fishCard:after {
+    position: absolute;
+    content: "";
+    left: -24px;
+    transform: translateY(-50%) rotate(270deg);
+    background-image: url("img/arrow-up.svg");
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    bottom: 50%;
+    top: 50%;
+  }
+
+  .progress__box-fishCard-img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .progress__box-progressBarWrapper {
+    height: unset;
+    max-width: 16px;
+    width: 100%;
+  }
+
+  .progress__box-progressBarWrapper-progress {
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(360deg, #F97F29 0%, #25B845 100%);
   }
 }
 @media screen and (max-width: 420px) {
